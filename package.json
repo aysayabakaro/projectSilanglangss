@@ -1,0 +1,40 @@
+{
+  "name": "hackedenggweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-pdf/renderer": "^2.3.0",
+    "axios": "^1.8.4",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "firebase-admin": "^13.2.0",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.12.1",
+    "node-fetch": "^2.7.0",
+    "ntp-client": "^0.5.3",
+    "ntp-time": "^2.0.6",
+    "pdfkit": "^0.17.0",
+    "react": "^17.0.2",
+    "session-file-store": "^1.5.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.27.1",
+    "@babel/core": "^7.27.1",
+    "@babel/node": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react": "^7.27.1"
+  }
+}
